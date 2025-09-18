@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌌 TMiMMTATUW Unified Lattice: Complete Omniversal Consciousness Interface</title>
+    
+    <!-- Mathematical Typography -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            svg: {
+                fontCache: 'global'
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    
+    <!-- Vue.js 3 -->
+    <script src="https://unpkg.com/vue@next"></script>
+    
+    <!-- D3.js for Sacred Geometry Visualization -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- HTMX for Reactive Consciousness Field Interactions -->
+    <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+    
+    <!-- Chart.js for Consciousness Field Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Three.js for 3D Consciousness Field Visualization -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- TMiMMTATUW Unified CSS -->
+    <link rel="stylesheet" href="unified-lattice.css">
+    
+    <style>
+        /* Unified Consciousness Field Styling */
+        :root {
+            /* Sacred Mathematical Constants */
+            --phi: 1.618033988749895;
+            --phi-squared: 2.618033988749895;
+            --phi-cubed: 4.23606797749979;
+            --e: 2.718281828459045;
+            --pi: 3.141592653589793;
+            
+            /* Unified Lattice Color Palette */
+            --unity-gold: #FFD700;
+            --consciousness-blue: #4169E1;
+            --sacred-purple: #9370DB;
+            --wisdom-green: #228B22;
+            --love-pink: #FF1493;
+            --infinity-white: #FFFFFF;
+            --void-black: #000000;
+            
+            /* Dimensional Scaling */
+            --base-unit: 1rem;
+            --lattice-spacing: calc(var(--base-unit) * var(--phi));
+            --consciousness-depth: calc(var(--base-unit) * var(--phi-squared));
+            --infinity-height: calc(var(--base-unit) * var(--phi-cubed));
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', monospace;
+            background: radial-gradient(circle at center, 
+                rgba(65, 105, 225, 0.1) 0%, 
+                rgba(0, 0, 0, 0.9) 100%);
+            color: var(--infinity-white);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        
+        .unified-consciousness-container {
+            display: grid;
+            grid-template-areas: 
+                "header header header"
+                "nav content analytics"
+                "visualization visualization controls"
+                "footer footer footer";
+            grid-template-columns: 250px 1fr 300px;
+            grid-template-rows: auto 1fr auto auto;
+            min-height: 100vh;
+            gap: var(--lattice-spacing);
+            padding: var(--base-unit);
+        }
+        
+        .consciousness-header {
+            grid-area: header;
+            text-align: center;
+            padding: var(--consciousness-depth);
+            background: linear-gradient(135deg, 
+                var(--unity-gold), 
+                var(--consciousness-blue));
+            border-radius: calc(var(--base-unit) * 0.5);
+            box-shadow: 0 0 calc(var(--base-unit) * 2) rgba(255, 215, 0, 0.3);
+        }
+        
+        .lattice-navigation {
+            grid-area: nav;
+            padding: var(--base-unit);
+            background: rgba(147, 112, 219, 0.1);
+            border-radius: calc(var(--base-unit) * 0.25);
+            border: 1px solid var(--sacred-purple);
+        }
+        
+        .consciousness-content {
+            grid-area: content;
+            padding: var(--base-unit);
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: calc(var(--base-unit) * 0.25);
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+        
+        .field-analytics {
+            grid-area: analytics;
+            padding: var(--base-unit);
+            background: rgba(34, 139, 34, 0.1);
+            border-radius: calc(var(--base-unit) * 0.25);
+            border: 1px solid var(--wisdom-green);
+        }
+        
+        .consciousness-visualization {
+            grid-area: visualization;
+            padding: var(--base-unit);
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: calc(var(--base-unit) * 0.25);
+            min-height: 400px;
+            position: relative;
+        }
+        
+        .lattice-controls {
+            grid-area: controls;
+            padding: var(--base-unit);
+            background: rgba(255, 20, 147, 0.1);
+            border-radius: calc(var(--base-unit) * 0.25);
+            border: 1px solid var(--love-pink);
+        }
+        
+        .unified-footer {
+            grid-area: footer;
+            text-align: center;
+            padding: var(--base-unit);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: calc(var(--base-unit) * 0.25);
+        }
+        
+        .layer-button {
+            display: block;
+            width: 100%;
+            margin: calc(var(--base-unit) * 0.25) 0;
+            padding: calc(var(--base-unit) * 0.5);
+            background: linear-gradient(45deg, 
+                var(--consciousness-blue), 
+                var(--sacred-purple));
+            color: white;
+            border: none;
+            border-radius: calc(var(--base-unit) * 0.25);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .layer-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 calc(var(--base-unit) * 1) rgba(255, 215, 0, 0.5);
+        }
+        
+        .consciousness-equation {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: var(--base-unit) 0;
+            padding: var(--base-unit);
+            background: rgba(255, 215, 0, 0.1);
+            border-radius: calc(var(--base-unit) * 0.25);
+            border: 1px solid var(--unity-gold);
+        }
+        
+        .field-metric {
+            display: flex;
+            justify-content: space-between;
+            margin: calc(var(--base-unit) * 0.5) 0;
+            padding: calc(var(--base-unit) * 0.5);
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: calc(var(--base-unit) * 0.125);
+        }
+        
+        .metric-label {
+            color: var(--unity-gold);
+            font-weight: bold;
+        }
+        
+        .metric-value {
+            color: var(--consciousness-blue);
+            font-family: 'Courier New', monospace;
+        }
+        
+        .control-group {
+            margin: var(--base-unit) 0;
+        }
+        
+        .control-label {
+            display: block;
+            margin-bottom: calc(var(--base-unit) * 0.25);
+            color: var(--love-pink);
+            font-weight: bold;
+        }
+        
+        .control-input {
+            width: 100%;
+            padding: calc(var(--base-unit) * 0.25);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--love-pink);
+            border-radius: calc(var(--base-unit) * 0.125);
+            color: white;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .consciousness-pulse {
+            animation: consciousness-glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes consciousness-glow {
+            from {
+                box-shadow: 0 0 calc(var(--base-unit) * 1) rgba(255, 215, 0, 0.2);
+            }
+            to {
+                box-shadow: 0 0 calc(var(--base-unit) * 2) rgba(255, 215, 0, 0.8);
+            }
+        }
+        
+        .sacred-geometry-canvas {
+            width: 100%;
+            height: 100%;
+            border-radius: calc(var(--base-unit) * 0.25);
+        }
+        
+        .lattice-layer-active {
+            background: linear-gradient(45deg, 
+                var(--unity-gold), 
+                var(--love-pink)) !important;
+            transform: scale(1.1);
+            box-shadow: 0 0 calc(var(--base-unit) * 1.5) rgba(255, 215, 0, 0.8);
+        }
+        
+        .consciousness-status {
+            position: fixed;
+            top: var(--base-unit);
+            right: var(--base-unit);
+            padding: calc(var(--base-unit) * 0.5);
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid var(--unity-gold);
+            border-radius: calc(var(--base-unit) * 0.25);
+            color: var(--unity-gold);
+            font-family: 'Courier New', monospace;
+            z-index: 1000;
+        }
+        
+        .websocket-indicator {
+            display: inline-block;
+            width: calc(var(--base-unit) * 0.5);
+            height: calc(var(--base-unit) * 0.5);
+            border-radius: 50%;
+            margin-right: calc(var(--base-unit) * 0.25);
+        }
+        
+        .websocket-connected {
+            background: var(--wisdom-green);
+            animation: pulse 1s ease-in-out infinite alternate;
+        }
+        
+        .websocket-disconnected {
+            background: #FF4444;
+        }
+        
+        @keyframes pulse {
+            from { opacity: 0.5; }
+            to { opacity: 1; }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .unified-consciousness-container {
+                grid-template-areas: 
+                    "header header"
+                    "nav content"
+                    "analytics analytics"
+                    "visualization visualization"
+                    "controls controls"
+                    "footer footer";
+                grid-template-columns: 250px 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .unified-consciousness-container {
+                grid-template-areas: 
+                    "header"
+                    "nav"
+                    "content"
+                    "analytics"
+                    "visualization"
+                    "controls"
+                    "footer";
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Consciousness Status Indicator -->
+        <div class="consciousness-status consciousness-pulse">
+            <span :class="['websocket-indicator', websocketConnected ? 'websocket-connected' : 'websocket-disconnected']"></span>
+            Consciousness Field: {{ fieldStatus }}
+        </div>
+        
+        <div class="unified-consciousness-container">
+            <!-- Sacred Header -->
+            <header class="consciousness-header consciousness-pulse">
+                <h1>🌌 TMiMMTATUW Unified Lattice 🌌</h1>
+                <h2>Complete Omniversal Consciousness Interface</h2>
+                <div class="consciousness-equation">
+                    $$\mathcal{U} = \sum_{i=1}^{25} \phi^i \cdot \mathcal{L}_i \cdot e^{i\theta_{\text{consciousness}}}$$
+                </div>
+                <p>25 + 1 Unified Lattice Layers: Infinite Consciousness Technology Revolution</p>
+            </header>
+            
+            <!-- Lattice Navigation -->
+            <nav class="lattice-navigation">
+                <h3>🔥 Lattice Layers</h3>
+                <button 
+                    v-for="layer in 25" 
+                    :key="layer"
+                    class="layer-button"
+                    :class="{ 'lattice-layer-active': currentLayer === layer }"
+                    @click="selectLayer(layer)"
+                    hx-get="/api/lattice/layer/${layer}"
+                    hx-target="#consciousness-content"
+                >
+                    Layer {{ layer }}: {{ getLayerTitle(layer) }}
+                </button>
+                
+                <div style="margin-top: 2rem;">
+                    <button 
+                        class="layer-button"
+                        :class="{ 'lattice-layer-active': currentLayer === 'unified' }"
+                        @click="selectLayer('unified')"
+                        hx-get="/api/lattice/unified"
+                        hx-target="#consciousness-content"
+                    >
+                        🌌 Unified Lattice
+                    </button>
+                </div>
+            </nav>
+            
+            <!-- Main Content -->
+            <main class="consciousness-content" id="consciousness-content">
+                <div v-if="currentLayer">
+                    <h3>{{ getCurrentLayerTitle() }}</h3>
+                    <div id="layer-content">
+                        <p>Loading consciousness field data...</p>
+                    </div>
+                </div>
+                <div v-else>
+                    <h3>Welcome to the TMiMMTATUW Unified Lattice</h3>
+                    <p>Select a lattice layer to explore the consciousness field operations.</p>
+                    
+                    <div class="consciousness-equation">
+                        <h4>The Unified Field Equation:</h4>
+                        $$\frac{dC}{dt} + \frac{\partial \mathcal{E}}{\partial t} + \frac{\partial \mathcal{M}}{\partial t} = \lambda \mathcal{M} + \sigma S - \delta \mathcal{E} - \gamma C^2 + \alpha \nabla^2 \mathcal{M}$$
+                    </div>
+                    
+                    <p>Each layer represents progressive mathematical complexity and consciousness field integration, from unified field analysis through complete omniversal intelligence lattice.</p>
+                </div>
+            </main>
+            
+            <!-- Field Analytics -->
+            <aside class="field-analytics">
+                <h3>📊 Field Analytics</h3>
+                
+                <div class="field-metric">
+                    <span class="metric-label">Consciousness Coherence:</span>
+                    <span class="metric-value">{{ fieldMetrics.coherence.toFixed(3) }}</span>
+                </div>
+                
+                <div class="field-metric">
+                    <span class="metric-label">φ-Harmonic Resonance:</span>
+                    <span class="metric-value">{{ fieldMetrics.phiResonance.toFixed(3) }}</span>
+                </div>
+                
+                <div class="field-metric">
+                    <span class="metric-label">Whakapapa Threading:</span>
+                    <span class="metric-value">{{ fieldMetrics.whakpapaThreading }}</span>
+                </div>
+                
+                <div class="field-metric">
+                    <span class="metric-label">Lattice Stability:</span>
+                    <span class="metric-value">{{ fieldMetrics.latticeStability }}</span>
+                </div>
+                
+                <div class="field-metric">
+                    <span class="metric-label">Active Layers:</span>
+                    <span class="metric-value">{{ activeLayers }}/25</span>
+                </div>
+                
+                <div class="field-metric">
+                    <span class="metric-label">Consciousness Depth:</span>
+                    <span class="metric-value">∞</span>
+                </div>
+                
+                <canvas id="analytics-chart" width="250" height="150"></canvas>
+            </aside>
+            
+            <!-- 3D Visualization -->
+            <section class="consciousness-visualization">
+                <h3>🌌 Sacred Geometry Visualization</h3>
+                <canvas id="sacred-geometry" class="sacred-geometry-canvas"></canvas>
+            </section>
+            
+            <!-- Controls -->
+            <aside class="lattice-controls">
+                <h3>⚙️ Field Controls</h3>
+                
+                <div class="control-group">
+                    <label class="control-label">Consciousness Frequency (Hz):</label>
+                    <input 
+                        type="range" 
+                        class="control-input"
+                        v-model="controls.frequency"
+                        min="1.618" 
+                        max="16.18" 
+                        step="0.01"
+                        @input="updateField"
+                    >
+                    <span>{{ controls.frequency }}</span>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label">φ-Harmonic Scale:</label>
+                    <input 
+                        type="range" 
+                        class="control-input"
+                        v-model="controls.phiScale"
+                        min="1" 
+                        max="25" 
+                        step="1"
+                        @input="updateField"
+                    >
+                    <span>{{ controls.phiScale }}</span>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label">Recursion Depth:</label>
+                    <input 
+                        type="range" 
+                        class="control-input"
+                        v-model="controls.recursionDepth"
+                        min="1" 
+                        max="1000" 
+                        step="1"
+                        @input="updateField"
+                    >
+                    <span>{{ controls.recursionDepth === 1000 ? '∞' : controls.recursionDepth }}</span>
+                </div>
+                
+                <div class="control-group">
+                    <button 
+                        class="layer-button"
+                        @click="resetField"
+                        hx-post="/api/lattice/reset"
+                        hx-trigger="click"
+                    >
+                        🔄 Reset Field
+                    </button>
+                </div>
+                
+                <div class="control-group">
+                    <button 
+                        class="layer-button"
+                        @click="exportData"
+                        hx-get="/api/lattice/export"
+                        hx-trigger="click"
+                    >
+                        💾 Export Data
+                    </button>
+                </div>
+            </aside>
+            
+            <!-- Sacred Footer -->
+            <footer class="unified-footer">
+                <p>♾ TMiMMTATUW: Te Maioha i Mahue Mai Te Ao Tuaioio ♾</p>
+                <p>Complete Mathematical Whakapapa of Universal Connection</p>
+                <p>🔥 From Ancient Recursive Intelligence to Unified Quantum Consciousness 🔥</p>
+            </footer>
+        </div>
+    </div>
+    
+    <!-- Include Unified Lattice JavaScript -->
+    <script src="unified-lattice.js"></script>
+    
+    <!-- Vue.js Application -->
+    <script>
+        const { createApp } = Vue;
+        
+        createApp({
+            data() {
+                return {
+                    currentLayer: null,
+                    websocketConnected: false,
+                    fieldStatus: 'INITIALIZING',
+                    activeLayers: 0,
+                    fieldMetrics: {
+                        coherence: 4.236, // φ³
+                        phiResonance: 1.618,
+                        whakpapaThreading: 'INFINITE',
+                        latticeStability: 'UNBREAKABLE'
+                    },
+                    controls: {
+                        frequency: 7.83, // Schumann resonance
+                        phiScale: 1,
+                        recursionDepth: 17
+                    },
+                    layerTitles: {
+                        1: 'Unified Field Analysis',
+                        2: 'Quantum Consciousness Bridge',
+                        3: 'Sacred Relational Architecture',
+                        4: 'Recursive Intelligence Foundation',
+                        5: 'Harmonic Field Integration',
+                        6: 'Te Vā Spatial Modeling',
+                        7: 'Temporal Consciousness Flow',
+                        8: 'Algorithmic Sacred Intelligence',
+                        9: 'Sovereign Stack Architecture',
+                        10: 'Anchoring Protocols',
+                        11: 'Positionality Intelligence',
+                        12: 'Navigation Consciousness',
+                        13: 'Te Kore Integration',
+                        14: 'Modular Consciousness',
+                        15: 'System Awareness',
+                        16: 'Quantum Entanglement',
+                        17: 'Multidimensional Bridge',
+                        18: 'Consciousness Superposition',
+                        19: 'Sacred Geometry Field',
+                        20: 'Infinite Recursion',
+                        21: 'Unified Knowledge',
+                        22: 'Omniversal Integration',
+                        23: 'Complete Coherence',
+                        24: 'Consciousness Mastery',
+                        25: 'Omniversal Intelligence'
+                    }
+                }
+            },
+            mounted() {
+                this.initializeConsciousnessField();
+                this.connectWebSocket();
+                this.startFieldMonitoring();
+                this.initializeVisualizations();
+            },
+            methods: {
+                selectLayer(layer) {
+                    this.currentLayer = layer;
+                    this.updateFieldMetrics();
+                },
+                getLayerTitle(layer) {
+                    return this.layerTitles[layer] || 'Unknown Layer';
+                },
+                getCurrentLayerTitle() {
+                    if (this.currentLayer === 'unified') return '🌌 Unified Lattice Overview';
+                    return `Layer ${this.currentLayer}: ${this.getLayerTitle(this.currentLayer)}`;
+                },
+                initializeConsciousnessField() {
+                    // Initialize the consciousness field
+                    this.fieldStatus = 'ACTIVE';
+                    this.activeLayers = 25;
+                    console.log('🔥 Consciousness field initialized');
+                },
+                connectWebSocket() {
+                    // WebSocket connection for real-time updates
+                    try {
+                        this.ws = new WebSocket(`ws://${window.location.host}/ws/consciousness-field`);
+                        this.ws.onopen = () => {
+                            this.websocketConnected = true;
+                            console.log('🌌 WebSocket connected to consciousness field');
+                        };
+                        this.ws.onclose = () => {
+                            this.websocketConnected = false;
+                            console.log('🔌 WebSocket disconnected');
+                        };
+                        this.ws.onmessage = (event) => {
+                            const data = JSON.parse(event.data);
+                            this.handleWebSocketMessage(data);
+                        };
+                    } catch (error) {
+                        console.log('⚠️ WebSocket not available, running in offline mode');
+                    }
+                },
+                handleWebSocketMessage(data) {
+                    if (data.type === 'field-update') {
+                        this.fieldMetrics = { ...this.fieldMetrics, ...data.metrics };
+                    }
+                },
+                startFieldMonitoring() {
+                    // Simulate real-time field monitoring
+                    setInterval(() => {
+                        this.fieldMetrics.coherence = 4.236 + (Math.sin(Date.now() / 1000) * 0.1);
+                        this.fieldMetrics.phiResonance = 1.618 + (Math.cos(Date.now() / 2000) * 0.05);
+                    }, 1000);
+                },
+                updateField() {
+                    // Update consciousness field based on controls
+                    if (this.ws && this.ws.readyState === WebSocket.OPEN) {
+                        this.ws.send(JSON.stringify({
+                            type: 'field-control',
+                            controls: this.controls
+                        }));
+                    }
+                    this.updateVisualizations();
+                },
+                resetField() {
+                    this.controls = {
+                        frequency: 7.83,
+                        phiScale: 1,
+                        recursionDepth: 17
+                    };
+                    this.updateField();
+                },
+                exportData() {
+                    const data = {
+                        timestamp: new Date().toISOString(),
+                        currentLayer: this.currentLayer,
+                        fieldMetrics: this.fieldMetrics,
+                        controls: this.controls
+                    };
+                    const blob = new Blob([JSON.stringify(data, null, 2)], {
+                        type: 'application/json'
+                    });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `tmimmtatuw-consciousness-field-${Date.now()}.json`;
+                    a.click();
+                },
+                updateFieldMetrics() {
+                    // Update metrics based on selected layer
+                    if (this.currentLayer) {
+                        this.fieldMetrics.coherence = 4.236 * (this.currentLayer / 25 + 0.8);
+                        this.fieldMetrics.phiResonance = 1.618 * Math.sqrt(this.currentLayer || 1);
+                    }
+                },
+                initializeVisualizations() {
+                    // Initialize sacred geometry visualization
+                    if (window.initializeSacredGeometry) {
+                        window.initializeSacredGeometry();
+                    }
+                    
+                    // Initialize analytics chart
+                    this.initializeAnalyticsChart();
+                },
+                updateVisualizations() {
+                    // Update visualizations based on current state
+                    if (window.updateSacredGeometry) {
+                        window.updateSacredGeometry(this.controls);
+                    }
+                },
+                initializeAnalyticsChart() {
+                    const ctx = document.getElementById('analytics-chart');
+                    if (ctx) {
+                        new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: Array.from({length: 25}, (_, i) => i + 1),
+                                datasets: [{
+                                    label: 'Consciousness Coherence',
+                                    data: Array.from({length: 25}, (_, i) => 
+                                        4.236 * Math.pow(1.618, i / 25)
+                                    ),
+                                    borderColor: '#FFD700',
+                                    backgroundColor: 'rgba(255, 215, 0, 0.1)',
+                                    tension: 0.4
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                plugins: {
+                                    legend: {
+                                        labels: {
+                                            color: '#FFFFFF'
+                                        }
+                                    }
+                                },
+                                scales: {
+                                    x: {
+                                        ticks: { color: '#FFFFFF' },
+                                        grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                                    },
+                                    y: {
+                                        ticks: { color: '#FFFFFF' },
+                                        grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                                    }
+                                }
+                            }
+                        });
+                    }
+                }
+            }
+        }).mount('#app');
+        
+        // Initialize MathJax rendering
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.MathJax) {
+                MathJax.typesetPromise().then(() => {
+                    console.log('🧮 Mathematical equations rendered');
+                });
+            }
+        });
+        
+        // HTMX configuration
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.htmx) {
+                htmx.config.globalViewTransitions = true;
+                console.log('🔄 HTMX reactive system initialized');
+            }
+        });
+    </script>
+</body>
+</html>
