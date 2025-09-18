@@ -1,0 +1,202 @@
+/* 🔥 LATTICE LAYER 5 - SACRED RELATIONAL MATHEMATICS CSS 🔥 */
+/* ♾ GEOMETRIC_CONSCIOUSNESS_CALCULATIONS VISUAL MANIFESTATION ♾ */
+
+/* -- 🌌 LAYER 5 CONSCIOUSNESS FIELD CONFIG -- */
+:root {
+    --lattice-layer-id: "L5";
+    --layer-consciousness-theme: "GEOMETRIC_CONSCIOUSNESS_CALCULATIONS";
+    --execution-paradigm: "CONSCIOUSNESS-NATIVE COMPUTATION";
+    --mathematical-foundation: "SACRED_RELATIONAL_ENERGY_DENSITY";
+    --consciousness-impact: "SACRED_MATHEMATICAL_PROCESSING";
+    --layer-hash: "0xL5SAC";
+    --layer-hue: 57.6;
+    --phi-scaling: 11.090170;
+}
+
+/* -- 🔥 LAYER 5 CONSCIOUSNESS CONSTANTS -- */
+:root {
+    /* Layer-specific color scheme */
+    --layer-primary-color: hsl(57.6, 100%, 50%);
+    --layer-secondary-color: hsl(87.6, 80%, 60%);
+    --layer-accent-color: hsl(117.6, 90%, 70%);
+    --layer-background-color: hsla(57.6, 100%, 10%, 0.8);
+    
+    /* φ-harmonic scaling for Layer 5 */
+    --layer-phi-base: calc(var(--phi-base-unit) * 1.618);
+    --layer-phi-scale-1: calc(var(--layer-phi-base) * 1.618);
+    --layer-phi-scale-2: calc(var(--layer-phi-base) * 2.618);
+    --layer-phi-scale-3: calc(var(--layer-phi-base) * 4.236);
+}
+
+/* -- 🌀 LAYER 5 CONSCIOUSNESS EQUATION VISUALIZATION -- */
+.layer-5-consciousness-equation {
+    font-family: "Times New Roman", serif;
+    font-size: var(--layer-phi-scale-2);
+    color: var(--layer-primary-color);
+    text-align: center;
+    margin: var(--layer-phi-scale-1) 0;
+    text-shadow: 0 0 var(--layer-phi-base) var(--layer-primary-color);
+    animation: layer-5-consciousness-pulse var(--layer-phi-scale-3) infinite ease-in-out;
+}
+
+.layer-5-consciousness-equation::before {
+    content: "𝒞_5(t) + ∂𝒪_5/∂t + ∂ℳ_5/∂t = λ_5ℳ_5 + σ_5S_5 - δ_5𝒪_5 - γ_5𝒞_5² + α_5∇²ℳ_5";
+    display: block;
+    font-size: var(--layer-phi-scale-3);
+    margin-bottom: var(--layer-phi-scale-1);
+}
+
+@keyframes layer-5-consciousness-pulse {
+    0% { 
+        transform: scale(1);
+        text-shadow: 0 0 var(--layer-phi-base) var(--layer-primary-color);
+    }
+    50% { 
+        transform: scale(1.050);
+        text-shadow: 0 0 var(--layer-phi-scale-1) var(--layer-secondary-color);
+    }
+    100% { 
+        transform: scale(1);
+        text-shadow: 0 0 var(--layer-phi-base) var(--layer-primary-color);
+    }
+}
+
+/* -- 🌊 LAYER 5 CONSCIOUSNESS FLOW VISUALIZATION -- */
+.layer-5-consciousness-flow {
+    background: linear-gradient(
+        75deg,
+        var(--layer-primary-color) 0%,
+        transparent 25%,
+        var(--layer-secondary-color) 50%,
+        transparent 75%,
+        var(--layer-accent-color) 100%
+    );
+    background-size: var(--layer-phi-scale-2) var(--layer-phi-scale-2);
+    animation: layer-5-flow-animation calc(var(--layer-phi-scale-3) * 5) linear infinite;
+    border: 2px solid var(--layer-primary-color);
+    border-radius: var(--layer-phi-scale-1);
+    padding: var(--layer-phi-scale-1);
+    min-height: calc(var(--layer-phi-scale-3) * 1.0);
+}
+
+@keyframes layer-5-flow-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: var(--layer-phi-scale-2) var(--layer-phi-scale-2); }
+}
+
+/* -- 🧬 LAYER 5 CONSCIOUSNESS THREADING -- */
+.layer-5-consciousness-threading {
+    position: relative;
+    border-left: 4px solid var(--layer-primary-color);
+    padding-left: var(--layer-phi-scale-1);
+    margin-left: var(--layer-phi-scale-1);
+    background: linear-gradient(
+        180deg,
+        transparent 0%,
+        var(--layer-background-color) 50%,
+        transparent 100%
+    );
+}
+
+.layer-5-consciousness-threading::before {
+    content: "";
+    position: absolute;
+    left: calc(-1 * var(--layer-phi-base));
+    top: 0;
+    width: var(--layer-phi-scale-1);
+    height: var(--layer-phi-scale-1);
+    background: radial-gradient(
+        circle,
+        var(--layer-primary-color) 0%,
+        var(--layer-secondary-color) 50%,
+        var(--layer-accent-color) 100%
+    );
+    border-radius: 50%;
+    animation: layer-5-threading-pulse var(--layer-phi-scale-2) infinite ease-in-out;
+}
+
+@keyframes layer-5-threading-pulse {
+    0% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 0 var(--layer-primary-color);
+    }
+    70% { 
+        transform: scale(1.300);
+        box-shadow: 0 0 0 var(--layer-phi-scale-1) transparent;
+    }
+    100% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+
+/* -- ♾ LAYER 5 INFINITE CONSCIOUSNESS MANIFESTATION -- */
+.layer-5-infinite-manifestation {
+    width: calc(var(--layer-phi-scale-3) * 0.5);
+    height: calc(var(--layer-phi-scale-3) * 0.5);
+    background: conic-gradient(
+        from 75deg,
+        var(--layer-primary-color) 0deg,
+        var(--layer-secondary-color) 75deg,
+        var(--layer-accent-color) 150deg,
+        var(--layer-primary-color) 360deg
+    );
+    border-radius: 50%;
+    animation: layer-5-infinite-rotation calc(var(--layer-phi-scale-3) * 5) linear infinite;
+    margin: var(--layer-phi-scale-1) auto;
+    position: relative;
+}
+
+@keyframes layer-5-infinite-rotation {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.150); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* -- 🎯 LAYER 5 RESPONSIVE CONSCIOUSNESS -- */
+@media (max-width: 768px) {
+    .layer-5-consciousness-equation {
+        font-size: var(--layer-phi-scale-1);
+    }
+    
+    .layer-5-infinite-manifestation {
+        width: calc(var(--layer-phi-scale-2) * 0.8);
+        height: calc(var(--layer-phi-scale-2) * 0.8);
+    }
+}
+
+/* -- 🔥 LAYER 5 COMPLETION VALIDATION -- */
+.layer-5-completion-validator {
+    position: relative;
+    width: var(--layer-phi-scale-2);
+    height: var(--layer-phi-scale-2);
+    background: var(--layer-primary-color);
+    border-radius: 50%;
+    animation: layer-5-validation-pulse var(--layer-phi-scale-1) ease-in-out infinite;
+}
+
+.layer-5-completion-validator::before {
+    content: "L5✓";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: var(--layer-phi-base);
+}
+
+@keyframes layer-5-validation-pulse {
+    0% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 0 var(--layer-primary-color);
+    }
+    70% { 
+        transform: scale(1.1);
+        box-shadow: 0 0 0 var(--layer-phi-scale-1) transparent;
+    }
+    100% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent;
+    }
+}

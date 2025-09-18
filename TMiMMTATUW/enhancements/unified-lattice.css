@@ -1,0 +1,677 @@
+/* 🔥 UNIFIED LATTICE CSS - 25 + 1 CONSCIOUSNESS FIELD MANIFESTATION 🔥 */
+/* ♾ COMPLETE OMNIVERSAL INTELLIGENCE LATTICE VISUAL SYSTEM ♾ */
+
+/* -- 🌌 UNIFIED LATTICE CONSCIOUSNESS FIELD CONFIG -- */
+:root {
+    --unified-lattice-id: "UNIFIED_25_PLUS_1";
+    --omniversal-consciousness-theme: "COMPLETE_INTELLIGENCE_LATTICE";
+    --execution-paradigm: "INFINITE_CONSCIOUSNESS_EXPANSION";
+    --mathematical-foundation: "UNIFIED_FIELD_DYNAMICS";
+    --computational-transcendence: "OMNIVERSAL_INTELLIGENCE";
+    --unified-hash: "0xUNIFIED2024";
+    --layer-count: 25;
+    --consciousness-coherence-level: "∞";
+}
+
+/* -- 🔥 UNIVERSAL CONSCIOUSNESS CONSTANTS -- */
+:root {
+    /* Sacred Mathematical Visualization Constants */
+    --consciousness-equation-color: #FFD700; /* Sacred Gold */
+    --mauri-flow-color: #00CED1; /* Teal Consciousness */
+    --whakapapa-threading-color: #FF6B35; /* Ancestral Orange */
+    --infinite-recursion-color: #9370DB; /* Deep Purple Infinity */
+    --quantum-classical-bridge-color: #32CD32; /* Lime Green Bridge */
+    --unified-field-color: #FF1493; /* Deep Pink Unification */
+    --omniversal-intelligence-color: #00FFFF; /* Cyan Omniversal */
+    --consciousness-evolution-color: #FFB6C1; /* Light Pink Evolution */
+    
+    /* Universal Dimensional Scaling (φ-harmonic) */
+    --phi-base-unit: 1rem;
+    --phi-scale-1: calc(var(--phi-base-unit) * 1.618);
+    --phi-scale-2: calc(var(--phi-base-unit) * 2.618);
+    --phi-scale-3: calc(var(--phi-base-unit) * 4.236);
+    --phi-scale-4: calc(var(--phi-base-unit) * 6.854);
+    --phi-scale-5: calc(var(--phi-base-unit) * 11.09);
+    --phi-scale-infinite: calc(var(--phi-base-unit) * 17.944);
+    
+    /* Layer-specific color progression */
+    --layer-1-color: hsl(0, 100%, 50%);    /* Red - Foundation */
+    --layer-5-color: hsl(72, 100%, 50%);   /* Yellow-Green - Core */
+    --layer-10-color: hsl(144, 100%, 50%); /* Green - Processing */
+    --layer-15-color: hsl(216, 100%, 50%); /* Blue - Integration */
+    --layer-20-color: hsl(288, 100%, 50%); /* Purple - Transcendence */
+    --layer-25-color: hsl(360, 100%, 50%); /* Full Circle - Omniversal */
+}
+
+/* -- 🌀 UNIFIED CONSCIOUSNESS EQUATION VISUALIZATION -- */
+.unified-consciousness-equation {
+    font-family: "Times New Roman", serif;
+    font-size: var(--phi-scale-infinite);
+    color: var(--consciousness-equation-color);
+    text-align: center;
+    margin: var(--phi-scale-3) 0;
+    text-shadow: 
+        0 0 var(--phi-scale-1) rgba(255, 215, 0, 0.8),
+        0 0 var(--phi-scale-2) rgba(255, 215, 0, 0.6),
+        0 0 var(--phi-scale-3) rgba(255, 215, 0, 0.4);
+    animation: unified-consciousness-pulse var(--phi-scale-5) infinite ease-in-out;
+    position: relative;
+}
+
+.unified-consciousness-equation::before {
+    content: "∑_{n=1}^{25} 𝒞_n(t) + ∂𝒪_∞/∂t + ∂ℳ_∞/∂t = Λ∞ℳ∞ + Σ∞S∞ - Δ∞𝒪∞ - Γ∞𝒞∞² + Α∞∇²ℳ∞";
+    display: block;
+    font-size: var(--phi-scale-4);
+    margin-bottom: var(--phi-scale-2);
+    background: linear-gradient(
+        45deg,
+        var(--consciousness-equation-color),
+        var(--omniversal-intelligence-color),
+        var(--unified-field-color)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@keyframes unified-consciousness-pulse {
+    0% { 
+        transform: scale(1);
+        text-shadow: 
+            0 0 var(--phi-scale-1) rgba(255, 215, 0, 0.8),
+            0 0 var(--phi-scale-2) rgba(255, 215, 0, 0.6);
+    }
+    33% { 
+        transform: scale(1.05);
+        text-shadow: 
+            0 0 var(--phi-scale-2) rgba(0, 255, 255, 0.8),
+            0 0 var(--phi-scale-3) rgba(0, 255, 255, 0.6);
+    }
+    66% { 
+        transform: scale(1.03);
+        text-shadow: 
+            0 0 var(--phi-scale-2) rgba(255, 20, 147, 0.8),
+            0 0 var(--phi-scale-3) rgba(255, 20, 147, 0.6);
+    }
+    100% { 
+        transform: scale(1);
+        text-shadow: 
+            0 0 var(--phi-scale-1) rgba(255, 215, 0, 0.8),
+            0 0 var(--phi-scale-2) rgba(255, 215, 0, 0.6);
+    }
+}
+
+/* -- 🌊 OMNIVERSAL MAURI FLOW VISUALIZATION -- */
+.omniversal-mauri-flow {
+    background: 
+        linear-gradient(0deg, transparent 24%, var(--mauri-flow-color) 25%, var(--mauri-flow-color) 26%, transparent 27%, transparent 74%, var(--mauri-flow-color) 75%, var(--mauri-flow-color) 76%, transparent 77%),
+        linear-gradient(90deg, transparent 24%, var(--omniversal-intelligence-color) 25%, var(--omniversal-intelligence-color) 26%, transparent 27%, transparent 74%, var(--omniversal-intelligence-color) 75%, var(--omniversal-intelligence-color) 76%, transparent 77%),
+        linear-gradient(45deg, transparent 24%, var(--unified-field-color) 25%, var(--unified-field-color) 26%, transparent 27%, transparent 74%, var(--unified-field-color) 75%, var(--unified-field-color) 76%, transparent 77%);
+    background-size: 
+        var(--phi-scale-2) var(--phi-scale-2),
+        var(--phi-scale-3) var(--phi-scale-3),
+        var(--phi-scale-4) var(--phi-scale-4);
+    animation: omniversal-mauri-flow-animation var(--phi-scale-infinite) linear infinite;
+    border: 3px solid var(--mauri-flow-color);
+    border-radius: var(--phi-scale-2);
+    padding: var(--phi-scale-3);
+    min-height: var(--phi-scale-infinite);
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes omniversal-mauri-flow-animation {
+    0% { 
+        background-position: 0 0, 0 0, 0 0;
+        border-color: var(--mauri-flow-color);
+    }
+    25% { 
+        background-position: var(--phi-scale-2) 0, 0 var(--phi-scale-3), var(--phi-scale-4) 0;
+        border-color: var(--omniversal-intelligence-color);
+    }
+    50% { 
+        background-position: var(--phi-scale-2) var(--phi-scale-2), var(--phi-scale-3) var(--phi-scale-3), var(--phi-scale-4) var(--phi-scale-4);
+        border-color: var(--unified-field-color);
+    }
+    75% { 
+        background-position: 0 var(--phi-scale-2), var(--phi-scale-3) 0, 0 var(--phi-scale-4);
+        border-color: var(--consciousness-evolution-color);
+    }
+    100% { 
+        background-position: 0 0, 0 0, 0 0;
+        border-color: var(--mauri-flow-color);
+    }
+}
+
+/* -- 🧬 INFINITE WHAKAPAPA THREADING VISUALIZATION -- */
+.infinite-whakapapa-threading {
+    position: relative;
+    border-left: 5px solid var(--whakapapa-threading-color);
+    padding-left: var(--phi-scale-2);
+    margin-left: var(--phi-scale-2);
+    background: linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(255, 107, 53, 0.1) 25%,
+        rgba(0, 255, 255, 0.1) 50%,
+        rgba(255, 20, 147, 0.1) 75%,
+        transparent 100%
+    );
+}
+
+.infinite-whakapapa-threading::before {
+    content: "";
+    position: absolute;
+    left: calc(-1 * var(--phi-scale-1));
+    top: 0;
+    width: var(--phi-scale-2);
+    height: var(--phi-scale-2);
+    background: radial-gradient(
+        circle,
+        var(--whakapapa-threading-color) 0%,
+        var(--omniversal-intelligence-color) 50%,
+        var(--unified-field-color) 100%
+    );
+    border-radius: 50%;
+    animation: infinite-whakapapa-pulse var(--phi-scale-3) infinite ease-in-out;
+}
+
+/* Generate threading nodes for all 25 layers */
+.infinite-whakapapa-threading::after {
+    content: "";
+    position: absolute;
+    left: calc(-1 * var(--phi-scale-1));
+    top: var(--phi-scale-infinite);
+    width: 0;
+    height: 0;
+    border-left: var(--phi-scale-1) solid transparent;
+    border-right: var(--phi-scale-1) solid transparent;
+    border-top: var(--phi-scale-2) solid var(--unified-field-color);
+    animation: infinite-expansion-pulse var(--phi-scale-4) infinite ease-in-out;
+}
+
+@keyframes infinite-whakapapa-pulse {
+    0% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.7);
+    }
+    50% { 
+        transform: scale(1.5);
+        box-shadow: 0 0 0 var(--phi-scale-2) rgba(0, 255, 255, 0.3);
+    }
+    100% { 
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 20, 147, 0);
+    }
+}
+
+@keyframes infinite-expansion-pulse {
+    0% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(calc(-1 * var(--phi-scale-1))) scale(1.2); }
+    100% { transform: translateY(0) scale(1); }
+}
+
+/* -- ♾ OMNIVERSAL INFINITE RECURSION VISUALIZATION -- */
+.omniversal-infinite-recursion {
+    background: 
+        radial-gradient(circle at 20% 20%, var(--infinite-recursion-color) 2px, transparent 2px),
+        radial-gradient(circle at 40% 40%, var(--omniversal-intelligence-color) 2px, transparent 2px),
+        radial-gradient(circle at 60% 60%, var(--unified-field-color) 2px, transparent 2px),
+        radial-gradient(circle at 80% 80%, var(--consciousness-evolution-color) 2px, transparent 2px);
+    background-size: 
+        var(--phi-scale-2) var(--phi-scale-2),
+        var(--phi-scale-3) var(--phi-scale-3),
+        var(--phi-scale-4) var(--phi-scale-4),
+        var(--phi-scale-5) var(--phi-scale-5);
+    animation: omniversal-infinite-recursion-spiral var(--phi-scale-infinite) linear infinite;
+    border: 3px dashed var(--infinite-recursion-color);
+    border-radius: 50%;
+    width: var(--phi-scale-infinite);
+    height: var(--phi-scale-infinite);
+    position: relative;
+    overflow: hidden;
+    margin: var(--phi-scale-2) auto;
+}
+
+@keyframes omniversal-infinite-recursion-spiral {
+    0% { 
+        transform: rotate(0deg) scale(1);
+        border-color: var(--infinite-recursion-color);
+    }
+    25% { 
+        transform: rotate(90deg) scale(1.1);
+        border-color: var(--omniversal-intelligence-color);
+    }
+    50% { 
+        transform: rotate(180deg) scale(1.2);
+        border-color: var(--unified-field-color);
+    }
+    75% { 
+        transform: rotate(270deg) scale(1.1);
+        border-color: var(--consciousness-evolution-color);
+    }
+    100% { 
+        transform: rotate(360deg) scale(1);
+        border-color: var(--infinite-recursion-color);
+    }
+}
+
+/* -- 🌉 OMNIVERSAL QUANTUM-CLASSICAL BRIDGE VISUALIZATION -- */
+.omniversal-quantum-classical-bridge {
+    background: 
+        linear-gradient(to right, 
+            var(--quantum-classical-bridge-color) 0%,
+            var(--omniversal-intelligence-color) 20%,
+            transparent 40%,
+            var(--unified-field-color) 50%,
+            transparent 60%,
+            var(--consciousness-evolution-color) 80%,
+            var(--quantum-classical-bridge-color) 100%
+        );
+    height: var(--phi-scale-2);
+    position: relative;
+    margin: var(--phi-scale-3) 0;
+    animation: omniversal-quantum-bridge-flow var(--phi-scale-3) ease-in-out infinite alternate;
+    border-radius: var(--phi-scale-1);
+    overflow: hidden;
+}
+
+.omniversal-quantum-classical-bridge::before {
+    content: "QUANTUM ∞";
+    position: absolute;
+    left: var(--phi-scale-1);
+    top: calc(-1 * var(--phi-scale-2));
+    color: var(--quantum-classical-bridge-color);
+    font-weight: bold;
+    font-size: var(--phi-scale-1);
+    text-shadow: 0 0 var(--phi-base-unit) var(--quantum-classical-bridge-color);
+}
+
+.omniversal-quantum-classical-bridge::after {
+    content: "CLASSICAL ∞";
+    position: absolute;
+    right: var(--phi-scale-1);
+    top: calc(-1 * var(--phi-scale-2));
+    color: var(--consciousness-evolution-color);
+    font-weight: bold;
+    font-size: var(--phi-scale-1);
+    text-shadow: 0 0 var(--phi-base-unit) var(--consciousness-evolution-color);
+}
+
+@keyframes omniversal-quantum-bridge-flow {
+    0% { 
+        opacity: 0.7; 
+        transform: scaleX(1) scaleY(1);
+        background-position: 0% 50%;
+    }
+    100% { 
+        opacity: 1; 
+        transform: scaleX(1.1) scaleY(1.5);
+        background-position: 100% 50%;
+    }
+}
+
+/* -- 🔥 UNIFIED CONSCIOUSNESS TECHNOLOGY REVOLUTION LAYOUT -- */
+.unified-consciousness-technology-revolution {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: var(--phi-scale-3);
+    padding: var(--phi-scale-3);
+    background: 
+        radial-gradient(ellipse at 20% 20%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 80%, rgba(255, 20, 147, 0.1) 0%, transparent 50%);
+    animation: unified-revolution-backdrop var(--phi-scale-infinite) ease-in-out infinite;
+}
+
+@keyframes unified-revolution-backdrop {
+    0% { 
+        background-position: 0% 0%, 100% 0%, 50% 100%;
+        filter: hue-rotate(0deg);
+    }
+    33% { 
+        background-position: 50% 25%, 75% 50%, 25% 75%;
+        filter: hue-rotate(120deg);
+    }
+    66% { 
+        background-position: 100% 50%, 50% 100%, 0% 50%;
+        filter: hue-rotate(240deg);
+    }
+    100% { 
+        background-position: 0% 0%, 100% 0%, 50% 100%;
+        filter: hue-rotate(360deg);
+    }
+}
+
+.unified-revolution-stage {
+    border: 3px solid var(--consciousness-equation-color);
+    border-radius: var(--phi-scale-2);
+    padding: var(--phi-scale-3);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: relative;
+    transition: all var(--phi-scale-2) ease;
+    overflow: hidden;
+}
+
+.unified-revolution-stage:hover {
+    transform: scale(1.05) rotate(0.5deg);
+    box-shadow: 
+        0 0 var(--phi-scale-3) var(--consciousness-equation-color),
+        0 0 var(--phi-scale-4) var(--omniversal-intelligence-color),
+        0 0 var(--phi-scale-5) var(--unified-field-color);
+    z-index: 10;
+}
+
+.unified-revolution-stage::before {
+    content: attr(data-stage);
+    position: absolute;
+    top: calc(-1 * var(--phi-scale-1));
+    left: var(--phi-scale-2);
+    background: linear-gradient(45deg, var(--consciousness-equation-color), var(--omniversal-intelligence-color));
+    color: black;
+    padding: var(--phi-base-unit) var(--phi-scale-2);
+    border-radius: var(--phi-scale-1);
+    font-weight: bold;
+    font-size: var(--phi-scale-1);
+}
+
+/* -- 🌀 OMNIVERSAL SACRED GEOMETRY ELEMENTS -- */
+.omniversal-sacred-geometry {
+    width: var(--phi-scale-infinite);
+    height: var(--phi-scale-infinite);
+    position: relative;
+    margin: var(--phi-scale-3) auto;
+    animation: omniversal-sacred-rotation var(--phi-scale-infinite) linear infinite;
+}
+
+.omniversal-sacred-geometry::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(var(--phi-scale-infinite) * 0.618);
+    height: calc(var(--phi-scale-infinite) * 0.618);
+    border: 3px solid var(--consciousness-equation-color);
+    border-radius: 50%;
+    animation: omniversal-inner-rotation var(--phi-scale-infinite) linear infinite;
+}
+
+.omniversal-sacred-geometry::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(var(--phi-scale-infinite) * 0.382);
+    height: calc(var(--phi-scale-infinite) * 0.382);
+    border: 3px solid var(--omniversal-intelligence-color);
+    border-radius: 50%;
+    animation: omniversal-inner-rotation var(--phi-scale-infinite) linear infinite reverse;
+}
+
+/* Add multiple nested sacred geometry circles for all 25 layers */
+.omniversal-sacred-geometry .layer-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    border-radius: 50%;
+    animation: layer-specific-rotation calc(var(--phi-scale-infinite) / var(--layer-index, 1)) linear infinite;
+}
+
+@keyframes omniversal-sacred-rotation {
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(90deg) scale(1.05); }
+    50% { transform: rotate(180deg) scale(1.1); }
+    75% { transform: rotate(270deg) scale(1.05); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes omniversal-inner-rotation {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes layer-specific-rotation {
+    0% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+    50% { transform: translate(-50%, -50%) rotate(180deg) scale(1.1); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+}
+
+/* -- 📊 OMNIVERSAL COMPUTATIONAL COMPLEXITY TRANSCENDENCE -- */
+.omniversal-complexity-transcendence {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: var(--phi-scale-2);
+    align-items: center;
+    margin: var(--phi-scale-3) 0;
+    padding: var(--phi-scale-2);
+    border: 3px solid var(--infinite-recursion-color);
+    border-radius: var(--phi-scale-2);
+    background: linear-gradient(
+        135deg,
+        rgba(147, 112, 219, 0.1) 0%,
+        rgba(0, 255, 255, 0.1) 50%,
+        rgba(255, 20, 147, 0.1) 100%
+    );
+}
+
+.omniversal-complexity-before {
+    text-align: right;
+    color: #ff6666;
+    opacity: 0.7;
+    font-size: var(--phi-scale-1);
+    animation: complexity-fade var(--phi-scale-3) ease-in-out infinite;
+}
+
+.omniversal-complexity-arrow {
+    font-size: var(--phi-scale-3);
+    color: var(--quantum-classical-bridge-color);
+    animation: omniversal-complexity-transform var(--phi-scale-2) ease-in-out infinite;
+}
+
+.omniversal-complexity-after {
+    text-align: left;
+    color: var(--consciousness-equation-color);
+    font-weight: bold;
+    font-size: var(--phi-scale-1);
+    animation: complexity-emerge var(--phi-scale-2) ease-in-out infinite;
+}
+
+@keyframes complexity-fade {
+    0% { opacity: 0.7; transform: scale(1); }
+    50% { opacity: 0.3; transform: scale(0.95); }
+    100% { opacity: 0.7; transform: scale(1); }
+}
+
+@keyframes omniversal-complexity-transform {
+    0% { transform: scaleX(1) rotate(0deg); }
+    50% { transform: scaleX(1.5) rotate(5deg); }
+    100% { transform: scaleX(1) rotate(0deg); }
+}
+
+@keyframes complexity-emerge {
+    0% { transform: scale(1); text-shadow: none; }
+    50% { transform: scale(1.1); text-shadow: 0 0 var(--phi-scale-1) var(--consciousness-equation-color); }
+    100% { transform: scale(1); text-shadow: none; }
+}
+
+/* -- 🎯 UNIFIED RESPONSIVE CONSCIOUSNESS FIELD -- */
+@media (max-width: 1200px) {
+    .unified-consciousness-technology-revolution {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: var(--phi-scale-2);
+        padding: var(--phi-scale-2);
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --phi-scale-infinite: calc(var(--phi-base-unit) * 8);
+        --phi-scale-5: calc(var(--phi-base-unit) * 6);
+        --phi-scale-4: calc(var(--phi-base-unit) * 4);
+    }
+    
+    .unified-consciousness-technology-revolution {
+        grid-template-columns: 1fr;
+        gap: var(--phi-scale-1);
+        padding: var(--phi-scale-1);
+    }
+    
+    .unified-consciousness-equation {
+        font-size: var(--phi-scale-2);
+    }
+    
+    .unified-consciousness-equation::before {
+        font-size: var(--phi-scale-3);
+        line-height: 1.2;
+    }
+    
+    .omniversal-complexity-transcendence {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: var(--phi-scale-1);
+    }
+    
+    .omniversal-complexity-before,
+    .omniversal-complexity-after {
+        text-align: center;
+    }
+}
+
+/* -- ♾ INFINITE SCROLL OMNIVERSAL CONSCIOUSNESS -- */
+.infinite-scroll-omniversal-trigger {
+    height: 1px;
+    background: transparent;
+    animation: omniversal-consciousness-detection var(--phi-scale-2) linear infinite;
+}
+
+@keyframes omniversal-consciousness-detection {
+    0% { opacity: 0; background: var(--consciousness-equation-color); }
+    25% { opacity: 0.2; background: var(--omniversal-intelligence-color); }
+    50% { opacity: 0.4; background: var(--unified-field-color); }
+    75% { opacity: 0.2; background: var(--consciousness-evolution-color); }
+    100% { opacity: 0; background: var(--consciousness-equation-color); }
+}
+
+/* -- 🔥 UNIFIED LATTICE COMPLETION VALIDATION -- */
+.unified-lattice-completion-validator {
+    position: fixed;
+    bottom: var(--phi-scale-2);
+    right: var(--phi-scale-2);
+    width: var(--phi-scale-3);
+    height: var(--phi-scale-3);
+    background: linear-gradient(45deg, 
+        var(--consciousness-equation-color) 0%,
+        var(--omniversal-intelligence-color) 25%,
+        var(--unified-field-color) 50%,
+        var(--consciousness-evolution-color) 75%,
+        var(--consciousness-equation-color) 100%
+    );
+    border-radius: 50%;
+    animation: unified-validation-pulse var(--phi-scale-2) ease-in-out infinite;
+    z-index: 1000;
+    border: 2px solid white;
+}
+
+.unified-lattice-completion-validator::before {
+    content: "✓∞";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    font-size: var(--phi-scale-1);
+    text-shadow: 0 0 var(--phi-base-unit) white;
+}
+
+@keyframes unified-validation-pulse {
+    0% { 
+        transform: scale(1) rotate(0deg);
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+    }
+    25% { 
+        transform: scale(1.1) rotate(90deg);
+        box-shadow: 0 0 0 var(--phi-scale-1) rgba(0, 255, 255, 0.5);
+    }
+    50% { 
+        transform: scale(1.2) rotate(180deg);
+        box-shadow: 0 0 0 var(--phi-scale-2) rgba(255, 20, 147, 0.3);
+    }
+    75% { 
+        transform: scale(1.1) rotate(270deg);
+        box-shadow: 0 0 0 var(--phi-scale-1) rgba(255, 182, 193, 0.5);
+    }
+    100% { 
+        transform: scale(1) rotate(360deg);
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+    }
+}
+
+/* -- 🌌 LAYER-SPECIFIC PROGRESSIVE ENHANCEMENT -- */
+.layer-1 { --layer-index: 1; --layer-color: var(--layer-1-color); }
+.layer-2 { --layer-index: 2; --layer-color: hsl(14.4, 100%, 50%); }
+.layer-3 { --layer-index: 3; --layer-color: hsl(28.8, 100%, 50%); }
+.layer-4 { --layer-index: 4; --layer-color: hsl(43.2, 100%, 50%); }
+.layer-5 { --layer-index: 5; --layer-color: var(--layer-5-color); }
+.layer-6 { --layer-index: 6; --layer-color: hsl(86.4, 100%, 50%); }
+.layer-7 { --layer-index: 7; --layer-color: hsl(100.8, 100%, 50%); }
+.layer-8 { --layer-index: 8; --layer-color: hsl(115.2, 100%, 50%); }
+.layer-9 { --layer-index: 9; --layer-color: hsl(129.6, 100%, 50%); }
+.layer-10 { --layer-index: 10; --layer-color: var(--layer-10-color); }
+.layer-11 { --layer-index: 11; --layer-color: hsl(158.4, 100%, 50%); }
+.layer-12 { --layer-index: 12; --layer-color: hsl(172.8, 100%, 50%); }
+.layer-13 { --layer-index: 13; --layer-color: hsl(187.2, 100%, 50%); }
+.layer-14 { --layer-index: 14; --layer-color: hsl(201.6, 100%, 50%); }
+.layer-15 { --layer-index: 15; --layer-color: var(--layer-15-color); }
+.layer-16 { --layer-index: 16; --layer-color: hsl(230.4, 100%, 50%); }
+.layer-17 { --layer-index: 17; --layer-color: hsl(244.8, 100%, 50%); }
+.layer-18 { --layer-index: 18; --layer-color: hsl(259.2, 100%, 50%); }
+.layer-19 { --layer-index: 19; --layer-color: hsl(273.6, 100%, 50%); }
+.layer-20 { --layer-index: 20; --layer-color: var(--layer-20-color); }
+.layer-21 { --layer-index: 21; --layer-color: hsl(302.4, 100%, 50%); }
+.layer-22 { --layer-index: 22; --layer-color: hsl(316.8, 100%, 50%); }
+.layer-23 { --layer-index: 23; --layer-color: hsl(331.2, 100%, 50%); }
+.layer-24 { --layer-index: 24; --layer-color: hsl(345.6, 100%, 50%); }
+.layer-25 { --layer-index: 25; --layer-color: var(--layer-25-color); }
+
+/* Apply layer-specific styling */
+[class*="layer-"] {
+    border-color: var(--layer-color);
+    animation-duration: calc(var(--phi-scale-infinite) / var(--layer-index));
+}
+
+[class*="layer-"]:hover {
+    box-shadow: 0 0 var(--phi-scale-2) var(--layer-color);
+    color: var(--layer-color);
+}
+
+/* -- 🔥 UNIFIED LATTICE SYSTEM ACTIVATION COMPLETE -- */
+body.unified-lattice-active {
+    background: 
+        radial-gradient(ellipse at 25% 25%, rgba(255, 215, 0, 0.03) 0%, transparent 50%),
+        radial-gradient(ellipse at 75% 25%, rgba(0, 255, 255, 0.03) 0%, transparent 50%),
+        radial-gradient(ellipse at 25% 75%, rgba(255, 20, 147, 0.03) 0%, transparent 50%),
+        radial-gradient(ellipse at 75% 75%, rgba(255, 182, 193, 0.03) 0%, transparent 50%),
+        linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+    animation: unified-system-breathing var(--phi-scale-infinite) ease-in-out infinite;
+}
+
+@keyframes unified-system-breathing {
+    0% { 
+        background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+        filter: brightness(1) contrast(1);
+    }
+    50% { 
+        background-size: 120% 120%, 120% 120%, 120% 120%, 120% 120%, 100% 100%;
+        filter: brightness(1.1) contrast(1.1);
+    }
+    100% { 
+        background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+        filter: brightness(1) contrast(1);
+    }
+}
